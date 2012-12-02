@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>sp</string>
+	</array>
+	<key>name</key>
+	<string>SourcePawn</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\/\/.+</string>
+			<key>name</key>
+			<string>comment.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[\"|\'].+[\"|\']</string>
+			<key>name</key>
+			<string>string.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>decl|new|Float|bool|String|Handle|const</string>
+			<key>name</key>
+			<string>storage.type.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[0-9]+</string>
+			<key>name</key>
+			<string>constant.numeric.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.preprocessor.c.include</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.SourcePawn</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(#include) &lt;(.+)&gt;</string>
+			<key>name</key>
+			<string>meta.include.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#if .+|#endinput|#endif|#define .+</string>
+			<key>name</key>
+			<string>meta.preprocessor.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>true|false</string>
+			<key>name</key>
+			<string>constant.language.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>if|while|for</string>
+			<key>name</key>
+			<string>keyword.control.statement.sourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>return|public</string>
+			<key>name</key>
+			<string>keyword.sourcePawn</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.sp</string>
+	<key>uuid</key>
+	<string>3969408f-a9cd-41c0-8f47-953b7eefef9d</string>
+</dict>
+</plist>

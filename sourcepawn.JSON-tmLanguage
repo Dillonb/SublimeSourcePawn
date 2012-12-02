@@ -1,0 +1,47 @@
+{ "name": "SourcePawn",
+  "scopeName": "source.sp",
+  "fileTypes": ["sp"],
+  "patterns": [
+  	{
+  		"match": "\\/\\/.+",
+  		"name": "comment.SourcePawn"
+  	},
+    {
+      "match": "[\\\"|\\'].+[\\\"|\\']",
+      "name": "string.SourcePawn"
+    },
+    {
+      "match": "decl|new|Float|bool|String|Handle|const",
+      "name": "storage.type.SourcePawn"
+    },
+    {
+      "match": "[0-9]+",
+      "name": "constant.numeric.SourcePawn"
+    },
+    {
+      "match": "(#include) <(.+)>",
+      "name": "meta.include.SourcePawn",
+      "captures": { 
+        "1": {"name": "meta.preprocessor.c.include"},
+        "2": {"name": "string.SourcePawn"}
+      }
+    },
+    {
+      "match": "#if .+|#endinput|#endif|#define .+",
+      "name": "meta.preprocessor.SourcePawn"
+    },
+    {
+      "match": "true|false",
+      "name": "constant.language.SourcePawn"
+    },
+    {
+      "match": "if|while|for",
+      "name": "keyword.control.statement.sourcePawn"
+    },
+    {
+      "match": "return|public",
+      "name": "keyword.sourcePawn"
+    }
+  ],
+  "uuid": "3969408f-a9cd-41c0-8f47-953b7eefef9d"
+}
