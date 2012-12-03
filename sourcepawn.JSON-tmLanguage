@@ -15,8 +15,12 @@
       "name": "comment.block.SourcePawn"
     },
     {
-      "match": "[\\\"|\\'].+[\\\"|\\']",
+      "match": "\\\".+\\\"",
       "name": "string.SourcePawn"
+    },
+    {
+      "match": "\\'.?\\'",
+      "name": "string.sourcePawn"
     },
     {
       "match": "(\\b)(enum|struct|decl|new|Float|bool|String|Handle|const|Plugin)(\\b)",
