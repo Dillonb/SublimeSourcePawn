@@ -39,7 +39,7 @@
       "name": "keyword.control.statement.sourcePawn"
     },
     {
-      "match": "return|public",
+      "match": "return|public|static",
       "name": "keyword.sourcePawn"
     }
   ],

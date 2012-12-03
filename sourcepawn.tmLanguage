@@ -73,7 +73,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>return|public</string>
+			<string>return|public|static</string>
 			<key>name</key>
 			<string>keyword.sourcePawn</string>
 		</dict>
