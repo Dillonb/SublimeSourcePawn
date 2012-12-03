@@ -19,8 +19,12 @@
       "name": "string.SourcePawn"
     },
     {
-      "match": "decl|new|Float|bool|String|Handle|const",
+      "match": "decl|new|Float|bool|String|Handle|const|Plugin",
       "name": "storage.type.SourcePawn"
+    },
+    {
+      "match": "HookEvent|CreateConVar|GetGameFolderName",
+      "name": "support.function.SourcePawn"
     },
     {
       "match": "[0-9]+",
@@ -35,7 +39,7 @@
       }
     },
     {
-      "match": "#if .+|#endinput|#endif|#define .+",
+      "match": "#if .+|#endinput|#endif|#define .+|#pragma .+",
       "name": "meta.preprocessor.SourcePawn"
     },
     {
@@ -47,7 +51,7 @@
       "name": "keyword.control.statement.sourcePawn"
     },
     {
-      "match": "return|public|static",
+      "match": "return|public|static|enum|struct",
       "name": "keyword.sourcePawn"
     }
   ],

@@ -40,9 +40,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>decl|new|Float|bool|String|Handle|const</string>
+			<string>decl|new|Float|bool|String|Handle|const|Plugin</string>
 			<key>name</key>
 			<string>storage.type.SourcePawn</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>HookEvent|CreateConVar|GetGameFolderName</string>
+			<key>name</key>
+			<string>support.function.SourcePawn</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -71,7 +77,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#if .+|#endinput|#endif|#define .+</string>
+			<string>#if .+|#endinput|#endif|#define .+|#pragma .+</string>
 			<key>name</key>
 			<string>meta.preprocessor.SourcePawn</string>
 		</dict>
@@ -89,7 +95,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>return|public|static</string>
+			<string>return|public|static|enum|struct</string>
 			<key>name</key>
 			<string>keyword.sourcePawn</string>
 		</dict>
