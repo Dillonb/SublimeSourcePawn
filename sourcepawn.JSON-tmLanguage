@@ -7,6 +7,14 @@
   		"name": "comment.SourcePawn"
   	},
     {
+      "begin": "/\\*",
+      "captures": {
+        "0": {"name": "comment.SourcePawn"}
+      },
+      "end": "\\*/",
+      "name": "comment.block.SourcePawn"
+    },
+    {
       "match": "[\\\"|\\'].+[\\\"|\\']",
       "name": "string.SourcePawn"
     },
