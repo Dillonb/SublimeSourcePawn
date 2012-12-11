@@ -7,6 +7,6 @@ Syntax highlighting for SourcePawn code. It is by no means complete, but even in
 
 ![alt text](https://raw.github.com/Dillonb/SublimeSourcePawn/master/shot.png "Screenshot")
 
-Installing
-----------
-To be filled in once this is accepted into the Package Control channel.
+Installation
+------------
+Install [Package Control.](http://wbond.net/sublime_packages/package_control) When it is installed, press Control-Shift-P, type "Package Control: Install Package", hit enter, type in "SourcePawn Syntax Highlighting" and hit enter again. Congratulations, your Sublime Text now highlights SourcePawn files.
