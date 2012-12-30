@@ -34,13 +34,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\".+\"</string>
+			<string>"(\\"|\\.|[^\\"])*"</string>
 			<key>name</key>
 			<string>string.SourcePawn</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\'.?\'</string>
+			<string>'(\\.|[^\\])?'</string>
 			<key>name</key>
 			<string>string.sourcePawn</string>
 		</dict>
