@@ -15,11 +15,11 @@
       "name": "comment.block.SourcePawn"
     },
     {
-      "match": "\\\".+\\\"",
+      "match": "\"(\\\\\"|\\\\.|[^\\\\\"])*\"",
       "name": "string.SourcePawn"
     },
     {
-      "match": "\\'.?\\'",
+      "match": "'(\\\\.|[^\\\\])?'",
       "name": "string.sourcePawn"
     },
     {
