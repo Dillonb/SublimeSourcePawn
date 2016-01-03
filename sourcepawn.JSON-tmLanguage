@@ -23,7 +23,7 @@
       "name": "string.sourcePawn"
     },
     {
-      "match": "(\\b)(enum|struct|decl|new|Float|bool|String|Handle|const|Plugin|client)(\\b)",
+      "match": "(\\b)(enum|struct|int|char|float|decl|new|Float|bool|String|Handle|const|Plugin|client)(\\b)",
       "captures": {
         "2": {"name": "storage.type.SourcePawn"}
       }
