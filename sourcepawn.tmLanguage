@@ -54,7 +54,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b)(enum|struct|decl|new|Float|bool|String|Handle|const|Plugin|client)(\b)</string>
+			<string>(\b)(enum|struct|int|char|float|decl|new|Float|bool|String|Handle|const|Plugin|client)(\b)</string>
 		</dict>
 		<dict>
 			<key>match</key>
