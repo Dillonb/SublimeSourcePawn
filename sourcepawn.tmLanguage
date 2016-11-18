@@ -70,7 +70,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[0-9]+</string>
+			<string>\w*(?&lt;![a-z])[0-9]+</string>
 			<key>name</key>
 			<string>constant.numeric.SourcePawn</string>
 		</dict>

@@ -37,7 +37,7 @@
       "name": "support.function.SourcePawn"
     },
     {
-      "match": "[0-9]+",
+      "match": "\\w*(?<![a-z])[0-9]+",
       "name": "constant.numeric.SourcePawn"
     },
     {
