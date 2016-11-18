@@ -67,7 +67,7 @@
       }
     },
     {
-      "match": "(\\b)(if|else|while|for)(\\b)",
+      "match": "(\\b)(if|else|while|for|switch|case)(\\b)",
       "captures": {
         "2": {"name": "keyword.control.statement.SourcePawn"}
       }
