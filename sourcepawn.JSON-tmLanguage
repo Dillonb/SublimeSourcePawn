@@ -73,7 +73,7 @@
       }
     },
     {
-      "match": "(\\b)(return|public|static)(\\b)",
+      "match": "(\\b)(return|public|static|continue)(\\b)",
       "name": "keyword.sourcePawn"
     }
   ],

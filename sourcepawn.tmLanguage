@@ -137,7 +137,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\b)(return|public|static)(\b)</string>
+			<string>(\b)(return|public|static|continue)(\b)</string>
 			<key>name</key>
 			<string>keyword.sourcePawn</string>
 		</dict>
