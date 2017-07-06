@@ -34,10 +34,19 @@
 			<string>comment.block.SourcePawn</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>"(\\"|\\.|[^\\"])*"</string>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
 			<key>name</key>
 			<string>string.SourcePawn</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>(\\"|\\.|[^\\"])*</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>

@@ -15,8 +15,12 @@
       "name": "comment.block.SourcePawn"
     },
     {
-      "match": "\"(\\\\\"|\\\\.|[^\\\\\"])*\"",
-      "name": "string.SourcePawn"
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.SourcePawn",
+      "patterns": [
+        {"match": "(\\\\\"|\\\\.|[^\\\\\"])*"}
+      ]
     },
     {
       "match": "'(\\\\.|[^\\\\])?'",
